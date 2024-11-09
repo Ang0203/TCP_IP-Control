@@ -1,0 +1,17 @@
+﻿<Page x:Class="CLIENT_22810201.ScreenshotPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:CLIENT_22810201"
+      Title="Chụp Màn Hình">
+
+    <StackPanel>
+        <!-- Phần trên cùng có nút Chụp lại và Quay lại -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="10">
+            <Button Content="Chụp màn hình" Click="CaptureButton_Click" HorizontalAlignment="Left"/>
+            <Button Content="Quay lại" Click="BackButton_Click" HorizontalAlignment="Right" Margin="10,0,0,0"/>
+        </StackPanel>
+
+        <!-- Khu vực hiển thị hình ảnh -->
+        <Image x:Name="CapturedImage" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+    </StackPanel>
+</Page>

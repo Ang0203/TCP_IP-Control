@@ -1,0 +1,13 @@
+﻿<Page x:Class="CLIENT_22810201.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Trang chủ">
+    <StackPanel Margin="10">
+        <Button Name="btnApps" Content="1. Applications" Height="80" Click="BtnApps_Click"/>
+        <Button Name="btnProcs" Content="2. Processes" Height="80" Click="BtnProcs_Click"/>
+        <Button Name="btnPC" Content="3. Computer" Height="80" Click="BtnPC_Click"/>
+        <Button Name="btnScreen" Content="4. Screen" Height="80" Click="BtnScreen_Click"/>
+        <Button Name="btnKey" Content="5. Keyboard" Height="80" Click="BtnKey_Click"/>
+        <Button Name="btnFiles" Content="6. Files" Height="80" Click="BtnFiles_Click"/>
+    </StackPanel>
+</Page>
